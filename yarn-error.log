@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Linus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Linus\.cargo\bin;C:\Users\Linus\AppData\Local\pnpm;C:\Users\Linus\AppData\Local\Microsoft\WindowsApps;C:\Users\Linus\AppData\Roaming\npm;C:\Users\Linus\AppData\Local\GitHubDesktop\bin;C:\Users\Linus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Linus\.deno\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Linus\AppData\Local\Yarn\Cache\v6\npm-cookie-0.5.0-d1f5d71adec6558c58f389987c366aa47e994f8b-integrity\node_modules\cookie\LICENSE' -> 'C:\Users\Linus\Documents\GitHub\web\node_modules\@sveltejs\kit\node_modules\cookie\LICENSE'
+
+npm manifest: 
+  {
+  	"name": "my-app",
+  	"version": "0.0.1",
+  	"scripts": {
+  		"dev": "svelte-kit dev --host",
+  		"build": "svelte-kit build",
+  		"package": "svelte-kit package",
+  		"preview": "svelte-kit preview",
+  		"prepare": "svelte-kit sync",
+  		"check": "svelte-check --tsconfig ./tsconfig.json",
+  		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+  		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+  		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-auto": "next",
+  		"@sveltejs/kit": "next",
+  		"@tailwindcss/typography": "^0.5.2",
+  		"@types/cookie": "^0.4.1",
+  		"@typescript-eslint/eslint-plugin": "^5.10.1",
+  		"@typescript-eslint/parser": "^5.10.1",
+  		"autoprefixer": "^10.4.4",
+  		"eslint": "^7.32.0",
+  		"eslint-config-prettier": "^8.3.0",
+  		"eslint-plugin-svelte3": "^3.2.1",
+  		"postcss": "^8.4.12",
+  		"prettier": "^2.5.1",
+  		"prettier-plugin-svelte": "^2.5.0",
+  		"svelte": "^3.46.0",
+  		"svelte-check": "^2.2.6",
+  		"svelte-preprocess": "^4.10.1",
+  		"tailwindcss": "^3.0.23",
+  		"tslib": "^2.3.1",
+  		"typescript": "~4.6.2"
+  	},
+  	"type": "module",
+  	"dependencies": {
+  		"@fontsource/fira-mono": "^4.5.0",
+  		"@lukeed/uuid": "^2.0.0",
+  		"cookie": "^0.4.1"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
